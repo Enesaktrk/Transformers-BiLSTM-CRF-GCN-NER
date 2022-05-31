@@ -12,3 +12,6 @@ Run
 
 train : python main.py train --use_cuda=False --batch_size=32
 test :  python main.py test --use_cuse=False --batch_size=32
+
+Notes:
+Fasttext embedding for Turkish and English can be downloaded from [here](https://fasttext.cc/docs/en/crawl-vectors.html).
